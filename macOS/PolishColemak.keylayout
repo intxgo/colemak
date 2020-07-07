@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-07-07 at 01:41 (CEST)-->
-<keyboard group="0" id="5007" name="PolishColemak" maxout="2">
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-07-08 at 00:50 (CEST)-->
+<keyboard group="126" id="-5329" name="PolishColemak" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -1523,8 +1523,8 @@
             <when state="dk12" output="ē"/>
             <when state="dk13" output="ȩ"/>
             <when state="dk14" output="ė"/>
-            <when state="dk2" output="ề"/>
-            <when state="dk3" output="ế"/>
+            <when state="dk2" output="è"/>
+            <when state="dk3" output="é"/>
             <when state="dk5" output="ë"/>
             <when state="dk6" output="ě"/>
             <when state="dk7" output="ễ"/>
@@ -1593,8 +1593,8 @@
             <when state="dk12" output="Ē"/>
             <when state="dk13" output="Ȩ"/>
             <when state="dk14" output="Ė"/>
-            <when state="dk2" output="Ề"/>
-            <when state="dk3" output="Ế"/>
+            <when state="dk2" output="È"/>
+            <when state="dk3" output="É"/>
             <when state="dk5" output="Ë"/>
             <when state="dk6" output="Ě"/>
             <when state="dk7" output="Ễ"/>
@@ -1679,8 +1679,8 @@
             <when state="dk11" output="å"/>
             <when state="dk12" output="ā"/>
             <when state="dk14" output="ȧ"/>
-            <when state="dk2" output="ầ"/>
-            <when state="dk3" output="ấ"/>
+            <when state="dk2" output="à"/>
+            <when state="dk3" output="á"/>
             <when state="dk5" output="ä"/>
             <when state="dk6" output="ǎ"/>
             <when state="dk7" output="ẫ"/>
@@ -1704,8 +1704,8 @@
             <when state="dk10" output="ŏ"/>
             <when state="dk12" output="ō"/>
             <when state="dk14" output="ȯ"/>
-            <when state="dk2" output="ồ"/>
-            <when state="dk3" output="ố"/>
+            <when state="dk2" output="ò"/>
+            <when state="dk3" output="ó"/>
             <when state="dk4" output="ő"/>
             <when state="dk5" output="ö"/>
             <when state="dk6" output="ǒ"/>
@@ -1776,8 +1776,8 @@
             <when state="dk11" output="Å"/>
             <when state="dk12" output="Ā"/>
             <when state="dk14" output="Ȧ"/>
-            <when state="dk2" output="Ầ"/>
-            <when state="dk3" output="Ấ"/>
+            <when state="dk2" output="À"/>
+            <when state="dk3" output="Á"/>
             <when state="dk5" output="Ä"/>
             <when state="dk6" output="Ǎ"/>
             <when state="dk7" output="Ẫ"/>
@@ -1815,8 +1815,8 @@
             <when state="dk10" output="Ŏ"/>
             <when state="dk12" output="Ō"/>
             <when state="dk14" output="Ȯ"/>
-            <when state="dk2" output="Ồ"/>
-            <when state="dk3" output="Ố"/>
+            <when state="dk2" output="Ò"/>
+            <when state="dk3" output="Ó"/>
             <when state="dk4" output="Ő"/>
             <when state="dk5" output="Ö"/>
             <when state="dk6" output="Ǒ"/>
