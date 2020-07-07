@@ -491,7 +491,7 @@ xkb_symbols "colemak" {
     key <AC08> { [            e,            E,         eogonek,          Eogonek ] };
     key <AC10> { [            o,            O,          oacute,           Oacute ] };
     key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
-    key <CAPS> { [    BackSpace,    Caps_Lock,       Caps_Lock,         BackSpace] };
+    key <CAPS> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,         Caps_Lock] };
 
     include "level3(ralt_switch)"
 };
