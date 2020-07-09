@@ -1,0 +1,11 @@
+--- rules/evdev.lst.bak	2020-07-09 19:46:01.000680850 +0200
++++ rules/evdev.lst	2020-07-09 19:47:20.113345195 +0200
+@@ -609,6 +609,8 @@
+   szl             pl: Silesian
+   ru_phonetic_dvorak pl: Russian (Poland, phonetic Dvorak)
+   dvp             pl: Polish (programmer Dvorak)
++  polish_colemak  pl: Polish +
++  polish_qwerty   pl: Polish +
+   nodeadkeys      pt: Portuguese (no dead keys)
+   sundeadkeys     pt: Portuguese (with Sun dead keys)
+   mac             pt: Portuguese (Macintosh)
