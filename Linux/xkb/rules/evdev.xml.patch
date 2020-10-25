@@ -1,9 +1,15 @@
 --- rules/evdev.xml.bak	2020-07-09 19:47:34.761630210 +0200
 +++ rules/evdev.xml	2020-07-09 19:56:51.718160063 +0200
-@@ -4494,6 +4494,18 @@
+@@ -4494,6 +4494,24 @@
          </languageList>
        </configItem>
        <variantList>
++         <variant>
++          <configItem>
++            <name>polish_colemak_code</name>
++            <description>PolishColemakCode</description>
++          </configItem>
++        </variant>
 +         <variant>
 +          <configItem>
 +            <name>polish_colemak</name>
