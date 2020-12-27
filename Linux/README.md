@@ -16,3 +16,13 @@ patch layout list
 ## Set layout from console
 
 `setxkbmap -layout pl -variant polish_colemak`
+
+## Set capslock as shift lock
+setxkbmap -option caps:shiftlock
+
+Create a file at ~/.Xmodmap. The file content should be this:
+
+````
+! make capslock do shift lock
+xmodmap -e "keycode 66 = Shift_Lock"
+````
