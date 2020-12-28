@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-07-08 at 00:50 (CEST)-->
+<!--Last edited by Ukelele version 339 on 2020-12-29 at 00:47 (GMT+1)-->
 <keyboard group="126" id="-5329" name="PolishColemak" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
@@ -1713,7 +1713,7 @@
             <when state="dk9" output="ô"/>
         </action>
         <action id="a56">
-            <when state="none" next="dk9"/>
+            <when state="none" output="w"/>
             <when state="dk11" output="ẘ"/>
             <when state="dk14" output="ẇ"/>
             <when state="dk2" output="ẁ"/>
