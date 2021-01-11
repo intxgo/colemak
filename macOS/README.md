@@ -8,3 +8,4 @@ Install for a user: copy to `~/Library/Keyboard\ Layouts/`
 
 Editor: Ukuele https://software.sil.org/ukelele/
 
+Karabiner-Elements: `cp karabiner.json ~/.config/karabiner/`
