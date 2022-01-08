@@ -26,3 +26,13 @@ Create a file at ~/.Xmodmap. The file content should be this:
 ! make capslock do shift lock
 xmodmap -e "keycode 66 = Shift_Lock"
 ````
+
+## Macbook keyboard options
+
+```
+! ralt become rctrl
+setxkbmap -option ctrl:ralt_rctrl
+
+! swap lwin with lctrl
+setxkbmap -option altwin:swap_lctrl_lwin
+```
