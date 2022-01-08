@@ -63,6 +63,7 @@ xkb_symbols "polish_colemak" {
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 
+    include "level3(rwin_switch)"
     include "level3(ralt_switch)"
 };
 
@@ -131,6 +132,7 @@ xkb_symbols "polish_qwerty" {
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 
+    include "level3(rwin_switch)"
     include "level3(ralt_switch)"
 };
 
@@ -199,6 +201,7 @@ xkb_symbols "polish_colemak_code" {
     key <LSGT> { [      Shift_L,      Shift_L,         Shift_L,          Shift_L ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 
+    include "level3(rwin_switch)"
     include "level3(ralt_switch)"
 };
 
@@ -267,5 +270,6 @@ xkb_symbols "polish_qwerty_code" {
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 
+    include "level3(rwin_switch)"
     include "level3(ralt_switch)"
 };
