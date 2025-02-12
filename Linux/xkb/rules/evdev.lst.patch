@@ -1,12 +1,9 @@
---- rules/evdev.lst.bak	2020-07-09 19:46:01.000680850 +0200
-+++ rules/evdev.lst	2020-07-09 19:47:20.113345195 +0200
-@@ -609,6 +609,9 @@
-   szl             pl: Silesian
-   ru_phonetic_dvorak pl: Russian (Poland, phonetic Dvorak)
-   dvp             pl: Polish (programmer Dvorak)
-+  polish_colemak_code  pl: Polish +
-+  polish_colemak  pl: Polish +
-+  polish_qwerty   pl: Polish +
-   nodeadkeys      pt: Portuguese (no dead keys)
-   sundeadkeys     pt: Portuguese (with Sun dead keys)
-   mac             pt: Portuguese (Macintosh)
+--- evdev.lst	2025-02-12 00:43:36.643935227 +0100
++++ /usr/share/X11/xkb/rules/evdev.lst	2025-02-12 00:49:36.709494192 +0100
+@@ -669,2 +669,6 @@
+   legacy          pl: Polish (legacy)
++  x_polish_colemak pl: Polish (€, Colemak Code)
++  x_polish_colemak_code pl: Polish (€, Colemak)
++  x_polish_qwerty pl: Polish (€, Colemak-Qwerty)
++  x_polish_qwerty_code pl: Polish (€, Colemak-Qwerty Code)
+   qwertz          pl: Polish (QWERTZ)

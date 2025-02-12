@@ -15,12 +15,17 @@ patch layout list
 
 ## Set layout from console
 
-`setxkbmap -layout pl -variant polish_colemak`
+```
+setxkbmap -layout pl -variant x_polish_colemak
+setxkbmap -layout pl -variant x_polish_colemak_code
+setxkbmap -layout pl -variant x_polish_qwerty
+setxkbmap -layout pl -variant x_polish_qwerty_code
+```
 
 ## Set capslock as shift lock
 setxkbmap -option caps:shiftlock
 
-Create a file at ~/.Xmodmap. The file content should be this:
+Create a file at ~/.Xmodmap with this content:
 
 ````
 ! make capslock do shift lock

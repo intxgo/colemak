@@ -1,12 +1,11 @@
 
-// PolishColemak 
-// 2020-01-01 https://github.com/internalc/colemak
+// Polish Colemak
 
 partial alphanumeric_keys
-xkb_symbols "polish_colemak" {
+xkb_symbols "x_polish_colemak" {
 
     include "us"
-    name[Group1]= "PolishColemak";
+    name[Group1]= "Polish (€, Colemak)";
 
     key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
     key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
@@ -22,10 +21,10 @@ xkb_symbols "polish_colemak" {
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
 
-    key <AD01> { [            q,            Q,              ae,               AE ] };
+    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
     key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
     key <AD03> { [            f,            F,          ssharp,        0x1001e9e ] };
-    key <AD04> { [            p,            P,          oslash,         Ooblique ] };
+    key <AD04> { [            p,            P,              ae,               AE ] };
     key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
     key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
     key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
@@ -37,16 +36,16 @@ xkb_symbols "polish_colemak" {
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
     key <AC01> { [            a,            A,         aogonek,          Aogonek ] };
-    key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
+    key <AC02> { [            r,            R,      dead_grave,       dead_tilde ] };
     key <AC03> { [            s,            S,          sacute,           Sacute ] };
     key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
     key <AC05> { [            d,            D,  dead_diaeresis,       asciitilde ] };
     key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
     key <AC07> { [            n,            N,          nacute,           Nacute ] };
     key <AC08> { [            e,            E,         eogonek,          Eogonek ] };
-    key <AC09> { [            i,            I,          iacute,           Iacute ] };
+    key <AC09> { [            i,            I,      dead_tilde,       asciitilde ] };
     key <AC10> { [            o,            O,          oacute,           Oacute ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+    key <AC11> { [   apostrophe,     quotedbl,          oslash,         Ooblique ] };
 
     key <AB01> { [            z,            Z,       zabovedot,        Zabovedot ] };
     key <AB02> { [            x,            X, 	        zacute,           Zacute ] };
@@ -60,22 +59,22 @@ xkb_symbols "polish_colemak" {
     key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
 
     key <CAPS> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,        Caps_Lock ] };
-    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
+    //key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
+    key <LSGT> { [      Shift_L,      Shift_L,         Shift_L,          Shift_L ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 
     include "level3(rwin_switch)"
     include "level3(ralt_switch)"
 };
 
-// PolishQwerty
-// 2020-01-01 https://github.com/internalc/colemak
-// PolishColemak with keys aranged in Qwerty. Invaluable with hardware keyboard in colemak.
+// Polish Qwerty
+// Polish Colemak with keys aranged in Qwerty. Invaluable with hardware keyboard in colemak.
 
 partial alphanumeric_keys
-xkb_symbols "polish_qwerty" {
+xkb_symbols "x_polish_qwerty" {
 
     include "us"
-    name[Group1]= "PolishQwerty";
+    name[Group1]= "Polish (€, Colemak-Qwerty)";
 
     key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
     key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
@@ -91,16 +90,16 @@ xkb_symbols "polish_qwerty" {
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
 
-    key <AD01> { [            q,            Q,              ae,               AE ] };
+    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
     key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
     key <AD03> { [            e,            E,         eogonek,          Eogonek ] };
-    key <AD04> { [            r,            R,      dead_grave,       asciitilde ] };
+    key <AD04> { [            r,            R,      dead_grave,       dead_tilde ] };
     key <AD05> { [            t,            T,      dead_acute, dead_doubleacute ] };
     key <AD06> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
     key <AD07> { [            u,            U,          uacute,           Uacute ] };
-    key <AD08> { [            i,            I,          iacute,           Iacute ] };
+    key <AD08> { [            i,            I,      dead_tilde,       asciitilde ] };
     key <AD09> { [            o,            O,          oacute,           Oacute ] };
-    key <AD10> { [            p,            P,          oslash,         Ooblique ] };
+    key <AD10> { [            p,            P,              ae,               AE ] };
     key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
@@ -115,7 +114,7 @@ xkb_symbols "polish_qwerty" {
     key <AC08> { [            k,            K,  dead_abovering,       asciitilde ] };
     key <AC09> { [            l,            L,         lstroke,          Lstroke ] };
     key <AC10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+    key <AC11> { [   apostrophe,     quotedbl,          oslash,         Ooblique ] };
 
     key <AB01> { [            z,            Z,       zabovedot,        Zabovedot ] };
     key <AB02> { [            x,            X, 	        zacute,           Zacute ] };
@@ -123,75 +122,6 @@ xkb_symbols "polish_qwerty" {
     key <AB04> { [            v,            V,              oe,               OE ] };
     key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AB06> { [            n,            N,          nacute,           Nacute ] };
-    key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
-    key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
-    key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
-    key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
-
-    key <CAPS> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,        Caps_Lock ] };
-    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
-    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-
-    include "level3(rwin_switch)"
-    include "level3(ralt_switch)"
-};
-
-// PolishColemakCode 
-// 2020-01-01 https://github.com/internalc/colemak
-// Layout tweaked for programmers, numbers swapped with symbols, etc.
-
-partial alphanumeric_keys
-xkb_symbols "polish_colemak_code" {
-
-    include "us"
-    name[Group1]= "PolishColemak Code";
-
-    key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
-    key <AE01> { [       exclam,            1,      exclamdown,      onesuperior ] };
-    key <AE02> { [           at,            2,       masculine,      twosuperior ] };
-    key <AE03> { [   numbersign,            3,     ordfeminine,    threesuperior ] };
-    key <AE04> { [       dollar,            4,            cent,         sterling ] };
-    key <AE05> { [      percent,            5,        EuroSign,              yen ] };
-    key <AE06> { [  asciicircum,            6,         hstroke,          Hstroke ] };
-    key <AE07> { [    ampersand,            7,             eth,              ETH ] };
-    key <AE08> { [     asterisk,            8,           thorn,            THORN ] };
-    key <AE09> { [    parenleft,            9,  leftsinglequotemark,  leftdoublequotemark ] };
-    key <AE10> { [   parenright,            0, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
-    key <AE12> { [        equal,         plus,        multiply,         division ] };
-
-    key <AD01> { [            q,            Q,              ae,               AE ] };
-    key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
-    key <AD03> { [            f,            F,          ssharp,        0x1001e9e ] };
-    key <AD04> { [            p,            P,          oslash,         Ooblique ] };
-    key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
-    key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AD08> { [            u,            U,          uacute,           Uacute ] };
-    key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AD11> { [    braceleft,  bracketleft,   guillemotleft,        0x1002039 ] };
-    key <AD12> { [   braceright, bracketright,  guillemotright,        0x100203a ] };
-    key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
-
-    key <AC01> { [            a,            A,         aogonek,          Aogonek ] };
-    key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AC03> { [            s,            S,          sacute,           Sacute ] };
-    key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
-    key <AC05> { [            d,            D,  dead_diaeresis,       asciitilde ] };
-    key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
-    key <AC07> { [            n,            N,          nacute,           Nacute ] };
-    key <AC08> { [            e,            E,         eogonek,          Eogonek ] };
-    key <AC09> { [            i,            I,          iacute,           Iacute ] };
-    key <AC10> { [            o,            O,          oacute,           Oacute ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
-
-    key <AB01> { [            z,            Z,       zabovedot,        Zabovedot ] };
-    key <AB02> { [            x,            X, 	        zacute,           Zacute ] };
-    key <AB03> { [            c,            C,          cacute,           Cacute ] };
-    key <AB04> { [            v,            V,              oe,               OE ] };
-    key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
-    key <AB06> { [            k,            K,  dead_abovering,       asciitilde ] };
     key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
     key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
     key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
@@ -205,17 +135,14 @@ xkb_symbols "polish_colemak_code" {
     include "level3(ralt_switch)"
 };
 
-// PolishQwertyCode
-// 2020-01-01 https://github.com/internalc/colemak
-// PolishColemak with keys aranged in Qwerty. Invaluable with hardware keyboard in colemak.
+// Polish Colemak Code
+// Layout tweaked for programmers, numbers swapped with symbols
 
 partial alphanumeric_keys
-xkb_symbols "polish_qwerty_code" {
+xkb_symbols "x_polish_colemak_code" {
+    include "pl(x_polish_colemak)"
+    name[Group1]= "Polish (€, Colemak Code)";
 
-    include "us"
-    name[Group1]= "PolishQwertyCode";
-
-    key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
     key <AE01> { [       exclam,            1,      exclamdown,      onesuperior ] };
     key <AE02> { [           at,            2,       masculine,      twosuperior ] };
     key <AE03> { [   numbersign,            3,     ordfeminine,    threesuperior ] };
@@ -226,50 +153,25 @@ xkb_symbols "polish_qwerty_code" {
     key <AE08> { [     asterisk,            8,           thorn,            THORN ] };
     key <AE09> { [    parenleft,            9,  leftsinglequotemark,  leftdoublequotemark ] };
     key <AE10> { [   parenright,            0, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
-    key <AE12> { [        equal,         plus,        multiply,         division ] };
+};
 
-    key <AD01> { [            q,            Q,              ae,               AE ] };
-    key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
-    key <AD03> { [            e,            E,         eogonek,          Eogonek ] };
-    key <AD04> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AD05> { [            t,            T,      dead_acute, dead_doubleacute ] };
-    key <AD06> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD07> { [            u,            U,          uacute,           Uacute ] };
-    key <AD08> { [            i,            I,          iacute,           Iacute ] };
-    key <AD09> { [            o,            O,          oacute,           Oacute ] };
-    key <AD10> { [            p,            P,          oslash,         Ooblique ] };
-    key <AD11> { [    braceleft,  bracketleft,   guillemotleft,        0x1002039 ] };
-    key <AD12> { [   braceright, bracketright,  guillemotright,        0x100203a ] };
-    key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
+// Polish Qwerty Code
+// Polish Colemak with keys aranged in Qwerty. Invaluable with hardware keyboard in colemak.
 
-    key <AC01> { [            a,            A,         aogonek,          Aogonek ] };
-    key <AC02> { [            s,            S,          sacute,           Sacute ] };
-    key <AC03> { [            d,            D,  dead_diaeresis,       asciitilde ] };
-    key <AC04> { [            f,            F,          ssharp,        0x1001e9e ] };
-    key <AC05> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
-    key <AC07> { [            j,            J,         dstroke,          Dstroke ] };
-    key <AC08> { [            k,            K,  dead_abovering,       asciitilde ] };
-    key <AC09> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AC10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+partial alphanumeric_keys
+xkb_symbols "x_polish_qwerty_code" {
 
-    key <AB01> { [            z,            Z,       zabovedot,        Zabovedot ] };
-    key <AB02> { [            x,            X, 	        zacute,           Zacute ] };
-    key <AB03> { [            c,            C,          cacute,           Cacute ] };
-    key <AB04> { [            v,            V,              oe,               OE ] };
-    key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
-    key <AB06> { [            n,            N,          nacute,           Nacute ] };
-    key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
-    key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
-    key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
-    key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
+    include "pl(x_polish_qwerty)"
+    name[Group1]= "Polish (€, Colemak-Qwerty Code)";
 
-    key <CAPS> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,        Caps_Lock ] };
-    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
-    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-
-    include "level3(rwin_switch)"
-    include "level3(ralt_switch)"
+    key <AE01> { [       exclam,            1,      exclamdown,      onesuperior ] };
+    key <AE02> { [           at,            2,       masculine,      twosuperior ] };
+    key <AE03> { [   numbersign,            3,     ordfeminine,    threesuperior ] };
+    key <AE04> { [       dollar,            4,            cent,         sterling ] };
+    key <AE05> { [      percent,            5,        EuroSign,              yen ] };
+    key <AE06> { [  asciicircum,            6,         hstroke,          Hstroke ] };
+    key <AE07> { [    ampersand,            7,             eth,              ETH ] };
+    key <AE08> { [     asterisk,            8,           thorn,            THORN ] };
+    key <AE09> { [    parenleft,            9,  leftsinglequotemark,  leftdoublequotemark ] };
+    key <AE10> { [   parenright,            0, rightsinglequotemark,  rightdoublequotemark ] };
 };

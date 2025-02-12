@@ -1,27 +1,47 @@
---- rules/evdev.xml.bak	2020-07-09 19:47:34.761630210 +0200
-+++ rules/evdev.xml	2020-07-09 19:56:51.718160063 +0200
-@@ -4494,6 +4494,24 @@
+--- evdev.xml	2025-02-12 00:43:13.695213350 +0100
++++ /usr/share/X11/xkb/rules/evdev.xml	2025-02-12 00:46:31.034630027 +0100
+@@ -5652,20 +5652,44 @@
+         <countryList>
+           <iso3166Id>PL</iso3166Id>
+         </countryList>
+         <languageList>
+           <iso639Id>pol</iso639Id>
          </languageList>
        </configItem>
        <variantList>
-+         <variant>
-+          <configItem>
-+            <name>polish_colemak_code</name>
-+            <description>PolishColemakCode</description>
-+          </configItem>
-+        </variant>
-+         <variant>
-+          <configItem>
-+            <name>polish_colemak</name>
-+            <description>PolishColemak</description>
+         <variant>
+           <configItem>
++            <name>x_polish_colemak</name>
++            <description>Polish (€, Colemak)</description>
 +          </configItem>
 +        </variant>
 +        <variant>
 +          <configItem>
-+            <name>polish_qwerty</name>
-+            <description>PolishQwrety</description>
++            <name>x_polish_qwerty</name>
++            <description>Polish (€, Colemak-Qwerty)</description>
 +          </configItem>
 +        </variant>
++        <variant>
++          <configItem>
++            <name>x_polish_colemak_code</name>
++            <description>Polish (€, Colemak Code)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
++            <name>x_polish_qwerty_code</name>
++            <description>Polish (€, Colemak-Qwerty Code)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>legacy</name>
+             <description>Polish (legacy)</description>
+           </configItem>
+         </variant>
          <variant>
            <configItem>
-             <name>legacy</name>
+             <name>qwertz</name>
+             <description>Polish (QWERTZ)</description>
+           </configItem>
+         </variant>
