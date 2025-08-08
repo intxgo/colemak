@@ -21,9 +21,9 @@ xkb_symbols "x_polish_colemak" {
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
 
-    key <AD01> { [            q,            Q,          ssharp,        0x1001e9e ] };
+    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
     key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
-    key <AD03> { [            f,            F,      adiaeresis,       Adiaeresis ] };
+    key <AD03> { [            f,            F,          ssharp,        0x1001e9e ] };
     key <AD04> { [            p,            P,              ae,               AE ] };
     key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
     key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
@@ -90,7 +90,7 @@ xkb_symbols "x_polish_qwerty" {
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
 
-    key <AD01> { [            q,            Q,          ssharp,        0x1001e9e ] };
+    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
     key <AD02> { [            w,            W, dead_circumflex,       asciitilde ] };
     key <AD03> { [            e,            E,         eogonek,          Eogonek ] };
     key <AD04> { [            r,            R,      dead_grave,       dead_tilde ] };
@@ -107,7 +107,7 @@ xkb_symbols "x_polish_qwerty" {
     key <AC01> { [            a,            A,         aogonek,          Aogonek ] };
     key <AC02> { [            s,            S,          sacute,           Sacute ] };
     key <AC03> { [            d,            D,  dead_diaeresis,       asciitilde ] };
-    key <AC04> { [            f,            F,      adiaeresis,       Adiaeresis ] };
+    key <AC04> { [            f,            F,          ssharp,        0x1001e9e ] };
     key <AC05> { [            g,            G,     dead_ogonek,       asciitilde ] };
     key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
     key <AC07> { [            j,            J,         dstroke,          Dstroke ] };
