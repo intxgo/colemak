@@ -1,0 +1,40 @@
+plugins {
+    id("com.android.application")
+    // Add other plugins here
+}
+android {
+    namespace 'com.example.polishhardwarekeyboard'
+    compileSdk 33
+    buildToolsVersion '36.0.0'
+    defaultConfig {
+        minSdk 21
+        targetSdk 33
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file(System.getProperty("user.home") + "/.android/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+
+        release {
+            storeFile file(System.getProperty("user.home") + "/.android/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            // ... other debug configurations ...
+        }
+        release {
+            signingConfig signingConfigs.debug
+            // ... release configurations ...
+        }
+    }
+}

@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        // Here you specify the ID AND THE VERSION for the Android Gradle Plugin
+        id("com.android.application") version "8.0.2" apply false
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // Or another appropriate mode
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "PolishHardwareKeyboardProject"
+include ':PolishHardwareKeyboard'
