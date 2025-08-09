@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# Polish(programmers) keyboard layout.
+# Polish(€ colemak) keyboard layout.
 #
 
 type OVERLAY
@@ -24,8 +24,8 @@ key GRAVE {
     label:                              '`'
     base:                               '`'
     shift:                              '~'
-    ralt:                               '\uef01'
-    shift+ralt:                         '\uef00'
+    ralt:                               '\uef00'
+    shift+ralt:                         '\uef01'
 }
 
 key 1 {
@@ -48,7 +48,7 @@ key 3 {
     label:                              '3'
     base:                               '3'
     shift:                              '#'
-    ralt:                               '\00aa'
+    ralt:                               '\u00aa'
     shift+ralt:                         '\u00b3'
 }
 
@@ -162,8 +162,8 @@ key T {
     label:                              'G'
     base:                               'g'
     shift, capslock:                    'G'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key Y {
@@ -226,8 +226,8 @@ key BACKSLASH {
     label:                              '\\'
     base:                               '\\'
     shift:                              '|'
-    ralt:                               'none'
-    shift+ralt:                         'none'
+    ralt:                               none
+    shift+ralt:                         none
 }
 
 ### ROW 3
@@ -244,8 +244,8 @@ key S {
     label:                              'R'
     base:                               'r'
     shift, capslock:                    'R'
-    ralt:                               '\u0300`
-    shift+ralt, capslock+ralt:          '\u0300`
+    ralt:                               '\u0300'
+    shift+ralt, capslock+ralt:          '\u0300'
 }
 
 key D {
@@ -276,8 +276,8 @@ key H {
     label:                              'H'
     base:                               'h'
     shift, capslock:                    'H'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key J {
@@ -358,24 +358,24 @@ key B {
     label:                              'B'
     base:                               'b'
     shift, capslock:                    'B'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key N {
     label:                              'K'
     base:                               'k'
     shift, capslock:                    'K'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key M {
     label:                              'M'
     base:                               'm'
     shift, capslock:                    'M'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key COMMA {
@@ -390,8 +390,8 @@ key PERIOD {
     label:                              '.'
     base:                               '.'
     shift:                              '>'
-    ralt:                               'none'
-    shift+ralt, capslock+ralt:          'none'
+    ralt:                               none
+    shift+ralt, capslock+ralt:          none
 }
 
 key SLASH {
@@ -399,5 +399,5 @@ key SLASH {
     base:                               '/'
     shift:                              '?'
     ralt:                               '\u00bf'
-    shift+ralt, capslock+ralt:          'none'
+    shift+ralt, capslock+ralt:          none
 }
