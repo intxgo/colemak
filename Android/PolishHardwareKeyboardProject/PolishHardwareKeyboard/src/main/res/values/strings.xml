@@ -5,4 +5,5 @@
 
     <!-- US English keyboard layout label. [CHAR LIMIT=35] -->
     <string name="keyboard_layout_polish_label">Polish (programmers)</string>
+    <string name="keyboard_layout_polish_colemak_label">Polish (€ colemak)</string>
 </resources>

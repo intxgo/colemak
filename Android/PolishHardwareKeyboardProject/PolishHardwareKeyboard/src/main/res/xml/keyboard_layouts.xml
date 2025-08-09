@@ -3,4 +3,7 @@
     <keyboard-layout android:name="keyboard_layout_polish"
             android:label="@string/keyboard_layout_polish_label"
             android:keyboardLayout="@raw/keyboard_layout_polish" />
+    <keyboard-layout android:name="keyboard_layout_polish_colemak"
+        android:label = "@string/keyboard_layout_polish_colemak_label"
+        android:keyboardLayout="@raw/keyboard_layout_polish_colemak" />
 </keyboard-layouts>
