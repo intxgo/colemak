@@ -162,8 +162,8 @@ key T {
     label:                              'G'
     base:                               'g'
     shift, capslock:                    'G'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u0328'
+    shift+ralt, capslock+ralt:          '\u0328'
 }
 
 key Y {
@@ -276,8 +276,8 @@ key H {
     label:                              'H'
     base:                               'h'
     shift, capslock:                    'H'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u030c'
+    shift+ralt, capslock+ralt:          '\u030c'
 }
 
 key J {
@@ -358,40 +358,40 @@ key B {
     label:                              'B'
     base:                               'b'
     shift, capslock:                    'B'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u0306'
+    shift+ralt, capslock+ralt:          '\u0306'
 }
 
 key N {
     label:                              'K'
     base:                               'k'
     shift, capslock:                    'K'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u030a'
+    shift+ralt, capslock+ralt:          '\u030a'
 }
 
 key M {
     label:                              'M'
     base:                               'm'
     shift, capslock:                    'M'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u0304'
+    shift+ralt, capslock+ralt:          '\u0304'
 }
 
 key COMMA {
     label:                              ','
     base:                               ','
     shift:                              '<'
-    ralt:                               '\u00e7'
-    shift+ralt, capslock+ralt:          '\u00c7'
+    ralt:                               '\u0327'
+    shift+ralt, capslock+ralt:          '\u0326'
 }
 
 key PERIOD {
     label:                              '.'
     base:                               '.'
     shift:                              '>'
-    ralt:                               none
-    shift+ralt, capslock+ralt:          none
+    ralt:                               '\u0307'
+    shift+ralt, capslock+ralt:          '\u0307'
 }
 
 key SLASH {
